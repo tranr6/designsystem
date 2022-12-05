@@ -1,0 +1,614 @@
+@import "https://fonts.googleapis.com/css2?family=Catamaran:wght@400;500;700&family=Kanit:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap";
+/* Nav Properties */
+* {
+  box-sizing: border-box;
+}
+
+.center {
+  text-align: center;
+}
+
+.forty {
+  width: 40%;
+}
+
+.fifty {
+  width: 50%;
+}
+
+.sixty {
+  width: 60%;
+}
+
+.flex {
+  display: flex;
+}
+
+body {
+  margin: 0;
+  font-size: 18px;
+}
+
+/* Header Style */
+.mainhero {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.mainhero button {
+  font-size: 1em;
+  background-color: transparent;
+  color: #fefefe;
+  padding: 10px 40px;
+  border: 2px solid #fefefe;
+  transition: 0.3s;
+}
+.mainhero button:hover {
+  color: #009900;
+  border: 2px solid #009900;
+}
+.mainhero h1 {
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
+  font-size: 4em;
+  color: #fefefe;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.mainhero h2 {
+  color: white;
+  font-family: "Catamaran", sans-serif;
+  font-size: 1.7em;
+  margin-bottom: 50px;
+}
+
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../gallery/oilsite2.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 90vh;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.lettercontainer {
+  width: 60%;
+  margin: auto;
+}
+
+nav {
+  border-bottom: 1px solid #007A50;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  justify-content: space-between;
+  font-size: 1em;
+}
+nav img {
+  width: 10em;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 0;
+}
+nav li {
+  display: inline;
+  color: #666666;
+  transition: 0.5s;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  padding-right: 40px;
+}
+nav li:hover {
+  color: #009900;
+}
+nav a {
+  text-decoration: none;
+}
+
+#downloadpdf {
+  color: #009900;
+  font-weight: 700;
+}
+#downloadpdf:hover {
+  text-decoration: underline;
+  color: #007A50;
+}
+
+.about {
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.about p {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5em;
+}
+.about h2 {
+  color: #007A50;
+  font-family: "Catamaran", sans-serif;
+  font-size: 1.7em;
+}
+
+footer {
+  background-color: #007A50;
+  color: #fefefe;
+  padding: 40px 0 5px;
+  justify-content: space-between;
+}
+footer img {
+  width: 5em;
+}
+footer ul {
+  list-style: none;
+}
+footer li {
+  display: inline;
+  padding-right: 30px;
+  color: #fefefe;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.9em;
+  transition: 0.3s;
+}
+footer li:hover {
+  color: #009900;
+}
+footer .container {
+  justify-content: space-between;
+}
+footer a {
+  text-decoration: none;
+}
+footer p {
+  text-align: center;
+  font-weight: 300;
+  font-size: 0.8em;
+  font-family: "Roboto", sans-serif;
+  color: #fefefe;
+  margin-top: 30px;
+}
+
+/* Financial Highlighhts */
+.financialhero {
+  color: #007A50;
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+.financialhero p {
+  color: #666666;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  margin: 5px;
+}
+
+.financialhighlights {
+  margin-top: 150px;
+}
+.financialhighlights h2 {
+  text-align: center;
+  color: #666666;
+  font-family: "Catamaran", sans-serif;
+  font-size: 1.5em;
+  margin-bottom: 0;
+}
+.financialhighlights p {
+  color: #666666;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  margin: 5px;
+  text-align: center;
+}
+.financialhighlights img {
+  border: 1px solid #007A50;
+}
+
+.financialreport {
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.financialreport img {
+  margin: 10px;
+}
+
+.production {
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+}
+.production h2 {
+  color: #666666;
+  font-family: "Catamaran", sans-serif;
+  font-size: 1.5em;
+  margin-bottom: 0;
+}
+.production p {
+  color: #666666;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  margin: 10px 0 0;
+  line-height: 1.75em;
+}
+
+.letter {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../gallery/letterbg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 350vh;
+}
+.letter h1 {
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
+  font-size: 4em;
+  color: #fefefe;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 100px;
+}
+.letter h2 {
+  color: #009900;
+  font-family: "Catamaran", sans-serif;
+  font-size: 1.7em;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+.letter p {
+  color: #fefefe;
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+  line-height: 1.75em;
+  margin-bottom: 20px;
+}
+
+.lettersignature {
+  margin-top: 50px;
+  justify-content: flex-end;
+}
+.lettersignature h3 {
+  color: #fefefe;
+  font-family: "Catamaran", sans-serif;
+  font-size: 1.7em;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.lettersignature p {
+  color: #007A50;
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+  line-height: 1.75em;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.signature {
+  margin-right: 50px;
+}
+
+.sustainabilityheader {
+  margin: auto;
+}
+.sustainabilityheader h1 {
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
+  font-size: 4em;
+  color: #007A50;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 100px;
+  text-align: center;
+}
+.sustainabilityheader p {
+  color: #666666;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  margin: 10px 0 0;
+  line-height: 1.75em;
+}
+.sustainabilityheader button {
+  margin-top: 20px;
+}
+
+.sustainabilitycards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sustainabilitycards h2 {
+  color: #007A50;
+  font-family: "Catamaran", sans-serif;
+  font-size: 1.7em;
+  margin: 20 0 0 0;
+}
+.sustainabilitycards p {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.75em;
+  margin: 0 0 10px 0;
+}
+.sustainabilitycards a {
+  color: #009900;
+  text-decoration: underline;
+  font-family: "Catamaran", sans-serif;
+  font-size: 1em;
+  font-weight: 500;
+  transition: 0.3s;
+}
+.sustainabilitycards a:hover {
+  color: #007A50;
+}
+
+.thirty {
+  width: 30%;
+}
+
+.environmental {
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 250px;
+  margin-bottom: 250px;
+}
+.environmental h2 {
+  color: #666666;
+  font-family: "Catamaran", sans-serif;
+  font-size: 1.5em;
+  margin-bottom: 0;
+}
+.environmental p {
+  color: #666666;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  margin: 10px 0 0;
+  line-height: 1.75em;
+}
+.environmental a {
+  color: #009900;
+  transition: 0.3s;
+}
+.environmental a:hover {
+  color: #007A50;
+}
+
+#style {
+  color: #007A50;
+  font-family: "Catamaran", sans-serif;
+  font-size: 2em;
+  margin: 0 0 30px 0;
+  text-align: center;
+}
+
+.designnav {
+  margin-top: 100px;
+  text-align: center;
+}
+.designnav h1 {
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
+  font-size: 4em;
+  color: #007A50;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.designnav ul {
+  list-style: none;
+}
+.designnav li {
+  display: inline;
+  color: #fefefe;
+  background-color: #999;
+  transition: 0.6s;
+  padding: 5px 30px;
+}
+.designnav li:hover {
+  font-size: 1.3em;
+  background-color: #009900;
+}
+.designnav li:active {
+  background-color: #007A50;
+}
+.designnav a {
+  text-decoration: none;
+  font-family: "Catamaran", sans-serif;
+  font-size: 1.25em;
+  padding: 0 30px;
+  transition: 0.6s;
+}
+
+.designsystem {
+  margin-top: 200px;
+}
+.designsystem h2 {
+  text-align: center;
+  color: #007A50;
+  font-family: "Catamaran", sans-serif;
+  font-size: 1.7em;
+}
+.designsystem h3 {
+  font-family: "Catamaran", sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  color: #666666;
+}
+
+.color-content {
+  justify-content: space-around;
+  display: flex;
+}
+
+.designlink {
+  text-align: center;
+  margin-top: 200px;
+}
+.designlink h3 {
+  font-family: "Catamaran", sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  color: #666666;
+  margin: 10px 0;
+}
+.designlink h2 {
+  text-align: center;
+  color: #007A50;
+  font-family: "Catamaran", sans-serif;
+  font-size: 1.7em;
+}
+.designlink ul {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 80px 0 80px;
+}
+.designlink li {
+  list-style: none;
+}
+
+.primarybutton {
+  font-size: 1em;
+  background-color: #009900;
+  color: white;
+  padding: 10px 20px;
+  transition: 0.3s;
+  border: none;
+}
+.primarybutton:hover {
+  background-color: #007A50;
+}
+
+.secondarybutton {
+  font-size: 1em;
+  background-color: #999;
+  color: white;
+  padding: 10px 20px;
+  transition: 0.3s;
+  border: none;
+}
+.secondarybutton:hover {
+  background-color: #009900;
+}
+
+.tertiarybutton {
+  font-size: 1em;
+  background-color: #666666;
+  color: white;
+  padding: 10px 20px;
+  transition: 0.3s;
+  border: none;
+}
+.tertiarybutton:hover {
+  background-color: #007A50;
+}
+
+.variationbutton {
+  font-size: 1em;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  transition: 0.3s;
+  border: none;
+}
+.variationbutton:hover {
+  background-color: #009900;
+}
+
+.components {
+  margin-top: 200px;
+}
+.components h2 {
+  text-align: center;
+  color: #007A50;
+  font-family: "Catamaran", sans-serif;
+  font-size: 1.7em;
+  margin-bottom: 40px;
+}
+
+.designcards {
+  display: block;
+  justify-content: space-between;
+  margin-bottom: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.designcards h3 {
+  color: #666;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.9em;
+  margin: 0 0 30px 0;
+  font-weight: 400;
+}
+.designcards h4 {
+  color: #007A50;
+  font-family: "Catamaran", sans-serif;
+  font-weight: 400;
+  font-size: 1.25em;
+  margin: 5px 0 10px 0;
+}
+.designcards p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  margin: 0 0 10px 0;
+}
+.designcards a {
+  color: #009900;
+  text-decoration: underline;
+  font-family: "Catamaran", sans-serif;
+  font-size: 1em;
+  font-weight: 500;
+  transition: 0.3s;
+}
+.designcards a:hover {
+  color: #007A50;
+}
+
+.fourty {
+  width: 40%;
+}
+
+.twenty {
+  width: 20%;
+}
+
+.photography {
+  text-align: center;
+  justify-content: space-evenly;
+  margin-bottom: 100px;
+}
+.photography div {
+  margin: 0 30px 0 30px;
+}
+.photography ul {
+  color: #666;
+}
+.photography li {
+  margin-bottom: 20px;
+  text-align: left;
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+}
+
+.photographyimage img {
+  margin-right: 20px;
+}
+
+.photographystyle h2 {
+  text-align: center;
+  color: #007A50;
+  font-family: "Catamaran", sans-serif;
+  font-size: 1.7em;
+  margin-bottom: 40px;
+}/*# sourceMappingURL=style.css.map */
